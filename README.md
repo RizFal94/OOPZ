@@ -1,6 +1,6 @@
 # OOPZ
 Obejct Oriented ProgrammingZ  
-Repository Final Project Kelompok 5 mata kuliah PBO    
+Repository Final Project Kelompok 5 mata kuliah PBO  
 Anggota:  
 1. (22081010142) AHMAD ZIDAN HIBATULLAH  
 2. (22081010148) GALANG RIZQIAN FALAH  
