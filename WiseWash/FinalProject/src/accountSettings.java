@@ -63,6 +63,7 @@ public class accountSettings extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(0, 153, 102));
         jButton1.setFont(new java.awt.Font("Poppins ExtraBold", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Switch Account");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,6 +74,7 @@ public class accountSettings extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(42, 98, 154));
 
         jLabel1.setFont(new java.awt.Font("Poppins Medium", 1, 24)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Account Settings");
 
         jLabel12.setBackground(new java.awt.Color(0, 50, 133));
@@ -146,6 +148,7 @@ public class accountSettings extends javax.swing.JFrame {
 
         jButton2.setBackground(new java.awt.Color(0, 153, 102));
         jButton2.setFont(new java.awt.Font("Poppins ExtraBold", 0, 14)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setText("SAVE");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -227,6 +230,7 @@ public class accountSettings extends javax.swing.JFrame {
 
         jButton3.setBackground(new java.awt.Color(153, 0, 0));
         jButton3.setFont(new java.awt.Font("Poppins ExtraBold", 0, 14)); // NOI18N
+        jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("Log Out");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
