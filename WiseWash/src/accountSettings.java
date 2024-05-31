@@ -26,7 +26,7 @@ public class accountSettings extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
+        gantiAkunButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
@@ -44,20 +44,20 @@ public class accountSettings extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        keluarButton = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(242, 255, 255));
 
-        jButton1.setBackground(new java.awt.Color(42, 97, 153));
-        jButton1.setFont(new java.awt.Font("Poppins ExtraBold", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setText("Ganti Akun");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        gantiAkunButton.setBackground(new java.awt.Color(42, 97, 153));
+        gantiAkunButton.setFont(new java.awt.Font("Poppins ExtraBold", 1, 14)); // NOI18N
+        gantiAkunButton.setForeground(new java.awt.Color(255, 255, 255));
+        gantiAkunButton.setText("Ganti Akun");
+        gantiAkunButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                gantiAkunButtonActionPerformed(evt);
             }
         });
 
@@ -219,13 +219,13 @@ public class accountSettings extends javax.swing.JFrame {
                 .addGap(15, 15, 15))
         );
 
-        jButton3.setBackground(new java.awt.Color(42, 97, 153));
-        jButton3.setFont(new java.awt.Font("Poppins ExtraBold", 1, 14)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jButton3.setText("Keluar");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        keluarButton.setBackground(new java.awt.Color(42, 97, 153));
+        keluarButton.setFont(new java.awt.Font("Poppins ExtraBold", 1, 14)); // NOI18N
+        keluarButton.setForeground(new java.awt.Color(255, 255, 255));
+        keluarButton.setText("Keluar");
+        keluarButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                keluarButtonActionPerformed(evt);
             }
         });
 
@@ -240,8 +240,8 @@ public class accountSettings extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel5)
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addComponent(jButton3)
-                        .addComponent(jButton1)))
+                        .addComponent(keluarButton)
+                        .addComponent(gantiAkunButton)))
                 .addGap(23, 23, 23)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(61, Short.MAX_VALUE))
@@ -256,10 +256,10 @@ public class accountSettings extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(27, 27, 27)
                         .addComponent(jLabel5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 319, Short.MAX_VALUE)
-                        .addComponent(jButton1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(gantiAkunButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton3)))
+                        .addComponent(keluarButton)))
                 .addGap(47, 47, 47))
         );
 
@@ -277,17 +277,21 @@ public class accountSettings extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void gantiAkunButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gantiAkunButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+        dispose();
+        Login loginFrame = new Login();
+        loginFrame.setVisible(true);
+    }//GEN-LAST:event_gantiAkunButtonActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void keluarButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_keluarButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+        
+    }//GEN-LAST:event_keluarButtonActionPerformed
 
     /**
      * @param args the command line arguments
@@ -325,9 +329,8 @@ public class accountSettings extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton gantiAkunButton;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
@@ -346,5 +349,6 @@ public class accountSettings extends javax.swing.JFrame {
     private javax.swing.JTextPane jTextPane4;
     private javax.swing.JTextPane jTextPane6;
     private javax.swing.JToggleButton jToggleButton1;
+    private javax.swing.JButton keluarButton;
     // End of variables declaration//GEN-END:variables
 }
