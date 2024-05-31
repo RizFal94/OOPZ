@@ -90,8 +90,8 @@ public class Layanan extends javax.swing.JFrame {
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(50, 50, 50)
-                .addComponent(jLabel7)
+                .addGap(42, 42, 42)
+                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
@@ -372,7 +372,7 @@ public class Layanan extends javax.swing.JFrame {
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(35, 35, 35)
                         .addComponent(statusButton2)))
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -988,17 +988,14 @@ public class Layanan extends javax.swing.JFrame {
     private javax.swing.JButton akunButton;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JButton riwayatButton;
@@ -1018,17 +1015,7 @@ public class Layanan extends javax.swing.JFrame {
     private javax.swing.JButton statusButton2;
     private javax.swing.JButton statusButton20;
     private javax.swing.JButton statusButton21;
-    private javax.swing.JButton statusButton22;
-    private javax.swing.JButton statusButton23;
-    private javax.swing.JButton statusButton24;
-    private javax.swing.JButton statusButton25;
-    private javax.swing.JButton statusButton26;
-    private javax.swing.JButton statusButton27;
-    private javax.swing.JButton statusButton28;
-    private javax.swing.JButton statusButton29;
     private javax.swing.JButton statusButton3;
-    private javax.swing.JButton statusButton30;
-    private javax.swing.JButton statusButton31;
     private javax.swing.JButton statusButton32;
     private javax.swing.JButton statusButton33;
     private javax.swing.JButton statusButton34;
